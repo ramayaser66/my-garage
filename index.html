@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Garage </title>
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>my Car Garage</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formDiv">
+            <form id="myForm" class="form">
+                <fieldset>
+
+                    <label for="name"> Car name</label>
+                    <input id="name" name="carName" type="text">
+
+                    <label for="ModelCat"> Category Model</label>
+                    <select id="ModelCat"  name="modelCategory">
+                        <option value="BMW">BMW</option>
+                        <option value="Lexus">Lexus</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Tesla">Tesla</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Hyundai">Hyundai</option>
+                        <option value="KIA">KIA</option>
+
+                    </select>
+                    <label for="ModelYear"> Category Model</label>
+                    <select id="ModelYear">
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+
+                    </select>
+
+                    <input id='carSubmit' type="submit" name="submit">
+
+                    
+                </fieldset>
+
+            </form>
+        </div>
+
+        <div class="table">
+            <table id="myTable">
+
+            </table>
+        </div>
+    </main>
+    
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
